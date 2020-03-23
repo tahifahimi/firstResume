@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navigation {
+  /* display: block; */
+  width: 100%;
+  margin: 0;
+}
+.listbar {
+  background-color: #00bfff;
+  overflow: hidden; /* remove the scroll*/
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none; /*no bullet for the list*/
+  float: left;
+}
+
+ul li.topnav_bar {
+  float: right;
+}
+
+ul li a{
+  display: block;
+  text-decoration: none; /*remove the underline*/
+  font-size: 16px;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+}
+
+ul li a:hover {
+  background-color: blue;
+}
+
+.fullPage {
+  /* width: 100%; */
+  min-height: 100vh;
+  padding: 10px;
+  /* generate space between the lines */
+  line-height: 1;
+}
+
+.title {
+  color: #00bfff;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+

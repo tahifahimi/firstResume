@@ -1,0 +1,54 @@
+{
+    "title":"hey, this is Tahere!",
+    "description": "github / stackoverflow",
+    "link":{
+        "gitHub": "https://github.com/tahifahimi",
+        "stackoverflow":"https://stackexchange.com/users/16200145/tahi"
+    },
+    
+    "sections":[
+        {
+            "title":"About",
+            "items":[
+                {
+                    "type":"p",
+                    "content":"this is tahere fahimi"
+                }
+            ]
+        },
+
+        {
+            "title":"skills",
+            "items":[
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"C:/user/Fahimi/Desktop/resume/public/html.png",
+                        "discription":"html"
+                    }
+                },
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"imageURL",
+                        "discription":"css"
+                    }
+                },
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"imageURL",
+                        "discription":"react"
+                    }
+                }
+            ]
+        }
+    ],
+
+    "navigation" :{
+        "button1":"start button",
+        "button2":"button 2",
+        "imageurl":"image URL!"
+    }
+
+}
